@@ -7,7 +7,8 @@ exports.config = {
       user: "******",
       key: "******",
       desiredCapabilities: {
-        platform: "Windows 10",
+        platformName: "Windows 10",
+        browserName: "internet explorer",
         name: "saucelabs-wdio4",
         seleniumVersion: "3.141.0",
         tunnelIdentifier: "******"
