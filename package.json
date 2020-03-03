@@ -1,0 +1,14 @@
+{
+  "name": "saucelabs-wdio4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "codeceptjs run --debug --steps"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^2.5.0"
+  }
+}
