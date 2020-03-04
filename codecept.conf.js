@@ -9,9 +9,12 @@ exports.config = {
       desiredCapabilities: {
         platformName: "Windows 10",
         browserName: "internet explorer",
-        name: "saucelabs-wdio4",
-        seleniumVersion: "3.141.0",
-        tunnelIdentifier: "******"
+        "sauce:options": {
+          parentTunnel: "******",
+          tunnelIdentifier: "******",
+          name: "saucelabs-wdio4",
+          seleniumVersion: "3.141.0"
+        }
       },
       browser: "internet explorer"
     }
